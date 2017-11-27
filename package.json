@@ -2,15 +2,28 @@
   "name": "familytreeBE",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "favicon": "0.0.2",
     "knex": "^0.14.2",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.0",
+    "node-env-match": "^1.0.0",
+    "node-env-simple": "^2.0.1",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7",
     "pg": "^7.4.0"
   }
 }
