@@ -1,7 +1,6 @@
 {
   "name": "familytreeBE",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -25,5 +24,7 @@
     "nodemon": "^1.12.1",
     "path": "^0.12.7",
     "pg": "^7.4.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
